@@ -1,0 +1,178 @@
+.contact{
+    color:hsl(199, 94%, 44%);
+}
+.feel{
+    margin-top: 60px;
+}
+
+.contact-head{
+    box-sizing: border-box;
+      border: 1px solid  hsl(0, 0%, 100%);
+   border-bottom: 19px solid hsl(199, 94%, 44%);
+   border-top: 10px solid hsl(199, 94%, 44%);
+   box-shadow: 0px 4px 20px hsl(199, 94%, 44%);
+   border-radius: 30px;
+   width: 450px;
+   height: 500px;
+
+} 
+.main{
+    display: flex;
+    gap: 120px;
+}
+.h3{
+    color: hsl(199, 94%, 44%) ;
+    padding-left: 30px;
+}
+.bt1{
+    background-color:  hsl(199, 94%, 44%);
+    color: white;
+    margin-top: 30px;
+    margin-left: 20px;
+    border: 1px solid  hsl(199, 94%, 44%);
+    padding: 5px 5px;
+    border-radius: 15px;
+    font-size: 20px;
+}  
+.map {
+    width: 450px;
+    height: 500px;
+    border: none;
+    cursor: pointer;
+}
+
+.sp1 {
+    box-sizing: border-box;
+    font-size: 15px;
+    color: gray;
+    margin-left: 30px;
+    border: none;
+    border-bottom: 1px solid lightgray;
+    width: 380px;
+    display: block;
+    padding: 8px 0;
+    outline: none;
+    background: transparent;
+}
+.sp1:focus {
+    border-bottom: 2px solid hsl(199, 94%, 44%);
+}
+
+.let{
+    color: hsl(199, 94%, 44%) ;
+}
+.divide{
+    color: grey;
+    font-size: 20px;
+}
+ .ul{
+    list-style-type: none;
+    color: hsl(206, 20%, 21%);
+    margin-left: 40px; 
+    font-weight: bold;
+    font-size: 15px;
+
+}
+.company{
+    color: hsl(206, 20%, 21%);
+    margin-left: 20px;
+    font-size: 35px;
+    font-weight: bold;
+}
+  .class{
+    background-color: hsl(199, 94%, 44%);
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+padding-left: 10px;
+flex-wrap: wrap;
+height: 800px;
+  }
+  .company{
+    color: hsl(206, 20%, 21%);
+    font-size: 20px;
+    margin-left: 2px;
+  }
+  .ul{
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   
+  }
+  .about{
+    color: hsl(206, 20%, 21%);
+    margin-top: -15px;
+    font-size: 20px;
+  }
+  .follow{
+    color: white;
+    background-color:  hsl(199, 94%, 44%);
+    border: 1px solid white;
+    padding: 10px 12px;
+border-radius: 20px;
+    width: 220px;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .ci-head{
+   display: flex;
+   gap: 10px;
+   margin-top: 10px;
+   margin-left: 20px;
+  }
+  .ci{
+    color: white;
+    font-size: 50px;
+  }
+.ci2{
+    color: white;
+    font-size: 45px;
+    border: 1px solid white;
+    border-radius: 30px;
+}
+.ci3{
+    color: white;
+    font-size: 35px;
+    border: 1px solid white;
+    border-radius: 25px;
+    padding: 5px 5px ;
+}
+.ci4{
+    color: white;
+    font-size: 32px;
+    border: 1px solid white;
+    padding: 5px 5px;
+    border-radius: 25px;
+}
+.uk{
+    display: flex;
+    position: relative;
+    top: -170px;
+}
+.img{
+    margin-left: 60px;
+}
+.img1{
+    margin-bottom: 20px;
+}
+.lineox{
+    border-bottom: 2px solid white;
+    width: 1550px;
+    position: relative;
+    top: -350px;
+}
+.copy{
+    color: whitesmoke;
+    font-size: 20px;
+    margin-left: 450px;
+    position: relative;
+    top: -550px;
+}
+
+.map {
+    width: 750px;
+    height: 450px;
+    border: none;
+    display: block;
+    margin-top: 10px;
+}

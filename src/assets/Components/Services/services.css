@@ -1,0 +1,200 @@
+
+.digital{
+    font-weight: bold;
+    padding-left: 40px;
+
+}
+.para{
+    font-size: 20px;
+    padding-left: 45px;
+    padding-top: 30px;
+ 
+}
+.main-head{
+    box-sizing: border-box;
+    border: 1px solid hsl(0, 0%, 100%);
+    border-top: 10px solid  hsl(199, 94%, 44%);
+    border-bottom: 10px solid  hsl(199, 94%, 44%);
+    box-shadow: 0px 4px 25px  hsl(199, 94%, 44%);
+    width: 350px;
+    height: 395px;
+    border-radius: 20px;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.provide{
+    color: hsl(199, 94%, 44%) ;
+}
+.para1{
+     font-size: 20px;
+     padding-left: 40px; 
+    padding-top: 20px;
+}
+.parent{
+    display: flex;
+    margin-left: 110px;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+.development{
+     font-weight: bold;
+    padding-left: 40px;   
+}
+.h1{
+    margin-top: 50px;
+}
+.tbstar{
+    color:  hsl(199, 94%, 44%);
+    margin-left: 150px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.lurocket{
+    color: hsl(199, 94%, 44%) ;
+    margin-left: 150px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.graphic{
+   font-weight: bold;
+    padding-left: 40px;   
+}
+.dot{
+        color: hsl(199, 94%, 44%) ;
+    margin-left: 150px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.para2{
+    font-size: 20px;
+    padding-left: 60px; 
+    padding-top: 20px;
+}
+.content{
+     font-weight: bold;
+    padding-left: 50px; 
+}
+.note{
+       color: hsl(199, 94%, 44%) ;
+    margin-left: 150px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.para3{
+       font-size: 20px;
+    padding-left: 60px; 
+    padding-top: 20px;
+}
+.seo{
+     font-weight: bold;
+    padding-left: 130px;   
+}
+.leave{
+       color: hsl(199, 94%, 44%) ;
+    margin-left: 150px;
+    font-size: 35px;
+    font-weight: bold;
+}
+.main-head1{
+        box-sizing: border-box;
+    border: 1px solid hsl(0, 0%, 100%);
+    border-top: 10px solid  hsl(199, 94%, 44%);
+    border-bottom: 10px solid  hsl(199, 94%, 44%);
+    box-shadow: 0px 4px 25px  hsl(199, 94%, 44%);
+    width: 350px;
+    height: 395px;
+    border-radius: 20px;
+    margin-top: 40px;
+    margin-left: 0px; 
+    position: relative;
+    left: 250px;
+}
+.main-head,
+.main-head1 {
+    transition: 0.3s;
+}
+
+.main-head:hover,
+.main-head1:hover {
+    transform: scale(1.05);
+}
+.industries{
+    color: black;
+    font-size: 35px;
+    font-weight: bold;
+}
+.work-with{
+    color:hsl(199, 94%, 44%);
+}
+.technology{
+    font-size: 20px;
+}
+.container{
+    margin-top: 40px;
+}
+.images{
+    width: 1550px;
+    height: 800px;
+    background-color: hsl(0, 0%, 97%);
+    display: flex;
+    gap:190px;
+    flex-wrap: wrap;
+}
+.image1{
+    margin-left: 80px;
+}
+.house{
+    margin-top:50px;
+    width: 200px;
+}
+.image-text{
+    font-weight: bold;
+    margin-left:30px;
+    font-size: 25px;
+}
+.education{
+    margin-top: 50px;
+    width: 350px;
+}
+.image-text2{
+    font-weight: bold;
+    margin-left: 120px;
+    font-size: 25px;
+}
+.commerce{
+    margin-top: 50px;
+    width: 300px;
+}
+.image-text3{
+    font-weight: bold;
+    margin-left: 90px;
+    font-size: 25px;
+}
+.image4{
+    margin-top: -200px;
+    margin-left: 80px;
+}
+.hospital{
+    margin-top: 50px;
+    width: 250px;
+}
+.image-text4{
+    font-weight: bold;
+    margin-left: 30px;
+    font-size: 25px;
+}
+.image5{
+    margin-top: -120px;
+}
+.health{
+    width: 250px;
+}
+.fintech{
+    width: 250px;
+    margin-left: 80px;
+}
+.image-text5{
+    font-weight: bold;
+    margin-left: 130px;
+    font-size: 25px;
+} 

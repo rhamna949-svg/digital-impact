@@ -1,0 +1,57 @@
+.impact {
+    color: hsl(199, 94%, 44%);
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+ .about1 {
+    padding-top: 40px;
+    font-weight: bold;
+    color: black;
+} 
+
+.paraside {
+    font-size: 25px;
+    color: black
+}
+
+.count {
+    font-size: 30px;
+    color: white;
+    background-color:
+        hsl(206, 20%, 21%);
+    box-sizing: border-box;
+    width: 400px;
+    padding: 45px 50px;
+    margin-left: 150px;
+    margin-top: 30px;
+}
+
+.span {
+font-size: 25px;
+}
+
+.count1 {
+    font-size: 30px;
+    color: white;
+    background-color: hsl(199, 94%, 44%) ;
+    box-sizing: border-box;
+    width: 400px;
+    padding: 45px 50px;
+    margin-top: 30px;
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+}
+.count2{
+    font-size: 30px;
+    color:hsl(206, 20%, 21%);
+    background-color: hsl(0, 0%, 96%) ;
+    box-sizing: border-box;
+    width: 400px;
+    padding: 45px 50px;
+    margin-right: 90px;
+    margin-top: 30px;
+}

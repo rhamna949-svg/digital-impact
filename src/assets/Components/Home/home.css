@@ -1,0 +1,40 @@
+.logo{
+    padding-top: 25px;
+    width: 1500px;
+}
+.description1{
+    color:hsl(199, 94%, 44%);
+    font-size: 40px;
+    font-weight: bold;
+     margin-top: -50px;
+}
+.w_f{
+    font-size: 40px;
+    font-weight: bold;
+}
+.welcome-2{
+        color:hsl(199, 94%, 44%);
+    font-size: 28px;
+    font-weight: bold;
+    border-bottom: 2px solid hsl(199, 94%, 44%);
+    width: 800px;
+    margin-top: -20px; 
+}
+.home{
+    display: flex;
+}
+.paragraph{
+    font-size: 20px;
+    margin-right: 50px;
+}
+.message-button{
+    background-color: hsl(199, 94%, 44%);
+    color: white;
+    font-size: 15px;
+    padding: 10px 20px;
+    border-radius: 45px;
+    border: none;
+    cursor: pointer;
+    margin-left: 400px;
+    margin-top: 50px;
+}
