@@ -1,178 +1,376 @@
-.contact{
-    color:hsl(199, 94%, 44%);
-}
-.feel{
-    margin-top: 60px;
+
+/* Contact Heading */
+.contact {
+    color: hsl(199, 94%, 44%);
 }
 
-.contact-head{
-    box-sizing: border-box;
-      border: 1px solid  hsl(0, 0%, 100%);
-   border-bottom: 19px solid hsl(199, 94%, 44%);
-   border-top: 10px solid hsl(199, 94%, 44%);
-   box-shadow: 0px 4px 20px hsl(199, 94%, 44%);
-   border-radius: 30px;
-   width: 450px;
-   height: 500px;
+.feel {
+    margin: 60px 20px 30px;
+    text-align: center;
+    font-size: 32px;
+}
 
-} 
-.main{
+/* Contact Section */
+.main {
     display: flex;
-    gap: 120px;
-}
-.h3{
-    color: hsl(199, 94%, 44%) ;
-    padding-left: 30px;
-}
-.bt1{
-    background-color:  hsl(199, 94%, 44%);
-    color: white;
-    margin-top: 30px;
-    margin-left: 20px;
-    border: 1px solid  hsl(199, 94%, 44%);
-    padding: 5px 5px;
-    border-radius: 15px;
-    font-size: 20px;
-}  
-.map {
-    width: 450px;
-    height: 500px;
-    border: none;
-    cursor: pointer;
+    justify-content: center;
+    align-items: stretch;
+    gap: 40px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 0 20px;
+    box-sizing: border-box;
 }
 
+/* Contact Form Card */
+.contact-head {
+    box-sizing: border-box;
+    border: 1px solid #ffffff;
+    border-top: 10px solid hsl(199, 94%, 44%);
+    border-bottom: 19px solid hsl(199, 94%, 44%);
+    box-shadow: 0 4px 20px hsl(199, 94%, 44%);
+    border-radius: 30px;
+    width: 100%;
+    max-width: 450px;
+    min-height: 450px;
+    padding: 15px 20px 25px;
+}
+
+/* Form Labels */
+.h3 {
+    color: hsl(199, 94%, 44%);
+    padding-left: 10px;
+    margin-bottom: 8px;
+}
+
+/* Form Inputs */
 .sp1 {
     box-sizing: border-box;
     font-size: 15px;
     color: gray;
-    margin-left: 30px;
+    margin: 0 10px;
     border: none;
     border-bottom: 1px solid lightgray;
-    width: 380px;
+    width: calc(100% - 20px);
     display: block;
     padding: 8px 0;
     outline: none;
     background: transparent;
 }
+
 .sp1:focus {
     border-bottom: 2px solid hsl(199, 94%, 44%);
 }
 
-.let{
-    color: hsl(199, 94%, 44%) ;
-}
-.divide{
-    color: grey;
-    font-size: 20px;
-}
- .ul{
-    list-style-type: none;
-    color: hsl(206, 20%, 21%);
-    margin-left: 40px; 
-    font-weight: bold;
-    font-size: 15px;
-
-}
-.company{
-    color: hsl(206, 20%, 21%);
-    margin-left: 20px;
-    font-size: 35px;
-    font-weight: bold;
-}
-  .class{
+/* Submit Button */
+.bt1 {
     background-color: hsl(199, 94%, 44%);
-    display: flex;
-    flex-direction: row;
-    gap: 200px;
-padding-left: 10px;
-flex-wrap: wrap;
-height: 800px;
-  }
-  .company{
-    color: hsl(206, 20%, 21%);
-    font-size: 20px;
-    margin-left: 2px;
-  }
-  .ul{
-   display: flex;
-   flex-direction: column;
-   align-items: flex-start;
-   
-  }
-  .about{
-    color: hsl(206, 20%, 21%);
-    margin-top: -15px;
-    font-size: 20px;
-  }
-  .follow{
     color: white;
-    background-color:  hsl(199, 94%, 44%);
-    border: 1px solid white;
-    padding: 10px 12px;
-border-radius: 20px;
-    width: 220px;
-    font-size: 15px;
-    font-weight: bold;
-  }
-  .ci-head{
-   display: flex;
-   gap: 10px;
-   margin-top: 10px;
-   margin-left: 20px;
-  }
-  .ci{
-    color: white;
-    font-size: 50px;
-  }
-.ci2{
-    color: white;
-    font-size: 45px;
-    border: 1px solid white;
-    border-radius: 30px;
-}
-.ci3{
-    color: white;
-    font-size: 35px;
-    border: 1px solid white;
-    border-radius: 25px;
-    padding: 5px 5px ;
-}
-.ci4{
-    color: white;
-    font-size: 32px;
-    border: 1px solid white;
-    padding: 5px 5px;
-    border-radius: 25px;
-}
-.uk{
-    display: flex;
-    position: relative;
-    top: -170px;
-}
-.img{
-    margin-left: 60px;
-}
-.img1{
-    margin-bottom: 20px;
-}
-.lineox{
-    border-bottom: 2px solid white;
-    width: 1550px;
-    position: relative;
-    top: -350px;
-}
-.copy{
-    color: whitesmoke;
-    font-size: 20px;
-    margin-left: 450px;
-    position: relative;
-    top: -550px;
+    margin: 25px 10px 0;
+    border: 1px solid hsl(199, 94%, 44%);
+    padding: 8px 18px;
+    border-radius: 15px;
+    font-size: 18px;
+    cursor: pointer;
 }
 
+/* Map */
 .map {
-    width: 750px;
+    width: 100%;
+    max-width: 650px;
+    min-width: 0;
     height: 450px;
     border: none;
     display: block;
     margin-top: 10px;
+}
+
+/* Work Together Section */
+.let {
+    color: hsl(199, 94%, 44%);
+    text-align: center;
+    margin: 45px 15px 15px;
+}
+
+.divide {
+    color: grey;
+    font-size: 20px;
+    text-align: center;
+    margin: 0 15px 30px;
+    line-height: 1.6;
+}
+
+/* Footer */
+.class {
+    background-color: hsl(199, 94%, 44%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 30px;
+    flex-wrap: wrap;
+    width: 100%;
+    min-height: 0;
+    height: auto;
+    padding: 40px 25px 25px;
+    box-sizing: border-box;
+}
+
+/* Footer Columns */
+.ul {
+    list-style-type: none;
+    color: hsl(206, 20%, 21%);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-weight: bold;
+    font-size: 15px;
+    min-width: 180px;
+}
+
+.company {
+    color: hsl(206, 20%, 21%);
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 0 25px;
+}
+
+.about {
+    color: hsl(206, 20%, 21%);
+    margin: 0 0 18px;
+    font-size: 16px;
+    overflow-wrap: anywhere;
+}
+
+/* Social Media */
+.follow {
+    color: white;
+    background-color: hsl(199, 94%, 44%);
+    border: 1px solid white;
+    padding: 10px 12px;
+    border-radius: 20px;
+    width: 180px;
+    max-width: 100%;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.ci-head {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.ci {
+    color: white;
+    font-size: 40px;
+}
+
+.ci2 {
+    color: white;
+    font-size: 38px;
+    border: 1px solid white;
+    border-radius: 30px;
+}
+
+.ci3 {
+    color: white;
+    font-size: 30px;
+    border: 1px solid white;
+    border-radius: 25px;
+    padding: 5px;
+}
+
+.ci4 {
+    color: white;
+    font-size: 30px;
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 25px;
+}
+
+/* Country Images */
+.uk {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    width: 100%;
+    margin: 10px 0;
+}
+
+.uk img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.img,
+.img1 {
+    margin: 0;
+}
+
+/* Footer Bottom */
+.lineox {
+    border: none;
+    border-bottom: 2px solid white;
+    width: 100%;
+    margin: 15px 0 0;
+}
+
+.copy {
+    color: whitesmoke;
+    font-size: 16px;
+    text-align: center;
+    width: 100%;
+    margin: 10px 0 0;
+    overflow-wrap: anywhere;
+}
+
+/* Tablet */
+@media (max-width: 900px) {
+    .main {
+        gap: 25px;
+    }
+
+    .map {
+        max-width: 100%;
+        height: 400px;
+    }
+
+    .contact-head {
+        max-width: 400px;
+    }
+
+    .class {
+        justify-content: flex-start;
+        gap: 35px;
+    }
+
+    .feel {
+        font-size: 28px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+    .feel {
+        font-size: 24px;
+        line-height: 1.4;
+        margin: 35px 15px 25px;
+    }
+
+    .feel br,
+    .divide br {
+        display: none;
+    }
+
+    .main {
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+        width: 100%;
+        margin: 20px auto;
+        padding: 0 15px;
+    }
+
+    .main > div {
+        width: 100%;
+        min-width: 0;
+    }
+
+    .map {
+        width: 100%;
+        max-width: none;
+        height: 300px;
+        margin: 0;
+    }
+
+    .contact-head {
+        width: 100%;
+        max-width: 450px;
+        min-height: 0;
+        margin: 0 auto;
+        padding: 15px 15px 25px;
+    }
+
+    .h3 {
+        font-size: 17px;
+    }
+
+    .let {
+        font-size: 26px;
+        margin: 35px 15px 15px;
+    }
+
+    .divide {
+        font-size: 16px;
+        line-height: 1.6;
+        margin: 0 15px 25px;
+    }
+
+    .class {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 35px;
+        width: 100%;
+        min-height: 0;
+        height: auto;
+        padding: 30px 25px 20px;
+    }
+
+    .ul {
+        width: 100%;
+        min-width: 0;
+        margin: 0;
+    }
+
+    .company {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .about {
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+
+    .follow {
+        width: 180px;
+    }
+
+    .ci-head {
+        margin-left: 0;
+    }
+
+    .uk {
+        justify-content: flex-start;
+        gap: 15px;
+        margin: 0;
+    }
+
+    .uk img {
+        max-width: 90px;
+        height: auto;
+    }
+
+    .lineox {
+        position: static;
+        margin: 0;
+    }
+
+    .copy {
+        position: static;
+        font-size: 13px;
+        line-height: 1.6;
+        margin: 0;
+    }
 }

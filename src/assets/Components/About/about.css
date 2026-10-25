@@ -1,3 +1,5 @@
+
+/* About Section */
 .impact {
     color: hsl(199, 94%, 44%);
     font-size: 30px;
@@ -5,53 +7,124 @@
     padding-top: 20px;
 }
 
- .about1 {
+.about1 {
     padding-top: 40px;
     font-weight: bold;
     color: black;
-} 
+}
 
 .paraside {
     font-size: 25px;
-    color: black
+    color: black;
+    line-height: 1.6;
+}
+
+/* Statistics Cards */
+.flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+    gap: 25px;
+    width: 100%;
+    max-width: 1350px;
+    margin: 30px auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.count,
+.count1,
+.count2 {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 350px;
+    min-width: 0;
+    padding: 35px 25px;
+    margin: 0;
+    font-size: 28px;
+    line-height: 1.5;
 }
 
 .count {
-    font-size: 30px;
     color: white;
-    background-color:
-        hsl(206, 20%, 21%);
-    box-sizing: border-box;
-    width: 400px;
-    padding: 45px 50px;
-    margin-left: 150px;
-    margin-top: 30px;
-}
-
-.span {
-font-size: 25px;
+    background-color: hsl(206, 20%, 21%);
 }
 
 .count1 {
-    font-size: 30px;
     color: white;
-    background-color: hsl(199, 94%, 44%) ;
-    box-sizing: border-box;
-    width: 400px;
-    padding: 45px 50px;
-    margin-top: 30px;
+    background-color: hsl(199, 94%, 44%);
 }
-.flex{
-    display: flex;
-    flex-direction: row;
+
+.count2 {
+    color: hsl(206, 20%, 21%);
+    background-color: hsl(0, 0%, 96%);
 }
-.count2{
-    font-size: 30px;
-    color:hsl(206, 20%, 21%);
-    background-color: hsl(0, 0%, 96%) ;
-    box-sizing: border-box;
-    width: 400px;
-    padding: 45px 50px;
-    margin-right: 90px;
-    margin-top: 30px;
+
+.span {
+    font-size: 22px;
+}
+
+/* Tablet */
+@media (max-width: 900px) {
+    .flex {
+        gap: 20px;
+    }
+
+    .count,
+    .count1,
+    .count2 {
+        max-width: 300px;
+        font-size: 25px;
+        padding: 30px 20px;
+    }
+
+    .paraside {
+        font-size: 21px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+    .impact {
+        font-size: 25px;
+        padding: 15px;
+        overflow-wrap: anywhere;
+    }
+
+    .about1 {
+        padding: 20px 15px 0;
+        font-size: 23px;
+    }
+
+    .paraside {
+        font-size: 17px;
+        line-height: 1.7;
+        padding: 0 15px;
+        overflow-wrap: break-word;
+    }
+
+    .flex {
+        flex-direction: column;
+        align-items: center;
+        gap: 18px;
+        width: 100%;
+        margin: 25px auto;
+        padding: 0 15px;
+    }
+
+    .count,
+    .count1,
+    .count2 {
+        width: 100%;
+        max-width: 450px;
+        padding: 25px 20px;
+        margin: 0;
+        font-size: 24px;
+    }
+
+    .span {
+        font-size: 18px;
+    }
 }

@@ -199,15 +199,22 @@
     font-size: 25px;
 }  */
   /* Digital Section */
+
+/* Digital Heading */
 .digital {
     font-weight: bold;
     padding-left: 40px;
+    box-sizing: border-box;
+    max-width: 100%;
 }
 
+/* Main Paragraph */
 .para {
     font-size: 20px;
-    padding-left: 45px;
-    padding-top: 30px;
+    padding: 30px 45px 0;
+    line-height: 1.7;
+    box-sizing: border-box;
+    max-width: 100%;
 }
 
 /* Services Cards Layout */
@@ -229,15 +236,17 @@
 .main-head1 {
     box-sizing: border-box;
     border: 1px solid #ffffff;
-    border-top: 10px solid hsl(199, 94%, 44%);
-    border-bottom: 10px solid hsl(199, 94%, 44%);
-    box-shadow: 0 4px 25px hsl(199, 94%, 44%);
-    width: 350px;
+    border-top: 8px solid hsl(199, 94%, 44%);
+    border-bottom: 8px solid hsl(199, 94%, 44%);
+    box-shadow: 0 4px 20px hsla(199, 94%, 44%, 0.25);
+    width: calc(33.333% - 20px);
+    min-width: 280px;
+    max-width: 350px;
     min-height: 395px;
     border-radius: 20px;
     margin: 0;
-    position: static;
-    padding: 20px;
+    padding: 25px 20px;
+    position: relative;
     transition: transform 0.3s ease;
 }
 
@@ -258,6 +267,7 @@
     font-weight: bold;
     padding-left: 0;
     text-align: center;
+    overflow-wrap: break-word;
 }
 
 /* Card Paragraphs */
@@ -268,6 +278,7 @@
     padding: 20px 0 0;
     text-align: center;
     line-height: 1.6;
+    overflow-wrap: break-word;
 }
 
 /* Service Icons */
@@ -284,16 +295,20 @@
     margin: 10px auto 20px;
 }
 
-/* Heading */
+/* Section Heading */
 .h1 {
     margin-top: 50px;
+    text-align: center;
+    padding: 0 20px;
+    overflow-wrap: break-word;
 }
 
 /* Industries Section */
 .container {
+    width: 100%;
+    max-width: 1200px;
     margin: 40px auto 0;
     padding: 0 20px;
-    max-width: 1200px;
     box-sizing: border-box;
 }
 
@@ -301,6 +316,8 @@
     color: black;
     font-size: 35px;
     font-weight: bold;
+    line-height: 1.3;
+    overflow-wrap: break-word;
 }
 
 .work-with {
@@ -309,7 +326,8 @@
 
 .technology {
     font-size: 20px;
-    line-height: 1.6;
+    line-height: 1.7;
+    overflow-wrap: break-word;
 }
 
 /* Industries Images Layout */
@@ -322,7 +340,7 @@
     background-color: hsl(0, 0%, 97%);
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 50px 30px;
+    gap: 45px 30px;
     box-sizing: border-box;
 }
 
@@ -359,20 +377,32 @@
     font-weight: bold;
     font-size: 22px;
     text-align: center;
+    line-height: 1.4;
     margin: 15px 0 0;
+    overflow-wrap: break-word;
 }
 
-/* Tablet Responsive */
+/* Tablet */
 @media (max-width: 900px) {
+    .digital {
+        padding-left: 25px;
+    }
+
+    .para {
+        padding: 25px;
+        font-size: 18px;
+    }
+
     .parent {
         gap: 25px;
-        padding: 0 15px;
+        padding: 0 20px;
     }
 
     .main-head,
     .main-head1 {
         width: calc(50% - 15px);
-        min-width: 280px;
+        min-width: 0;
+        max-width: 400px;
     }
 
     .images {
@@ -383,23 +413,33 @@
     .industries {
         font-size: 30px;
     }
+
+    .technology {
+        font-size: 18px;
+    }
 }
 
-/* Mobile Responsive */
+/* Mobile */
 @media (max-width: 600px) {
     .digital {
-        padding-left: 15px;
+        padding: 15px;
+        font-size: 25px;
+        text-align: center;
+        overflow-wrap: break-word;
     }
 
     .para {
-        font-size: 17px;
-        padding: 20px 15px 0;
+        font-size: 16px;
+        line-height: 1.7;
+        padding: 15px;
+        text-align: center;
     }
 
     .parent {
         flex-direction: column;
         align-items: center;
         gap: 25px;
+        width: 100%;
         margin: 30px auto;
         padding: 0 15px;
     }
@@ -407,17 +447,32 @@
     .main-head,
     .main-head1 {
         width: 100%;
-        max-width: 350px;
+        max-width: 400px;
         min-width: 0;
-        min-height: 350px;
+        min-height: 0;
         height: auto;
-        padding: 20px;
+        padding: 22px 18px;
+    }
+
+    .development,
+    .graphic,
+    .content,
+    .seo {
+        font-size: 21px;
     }
 
     .para1,
     .para2,
     .para3 {
         font-size: 16px;
+        line-height: 1.7;
+        padding-top: 15px;
+    }
+
+    .h1 {
+        font-size: 27px;
+        margin-top: 35px;
+        padding: 0 15px;
     }
 
     .container {
@@ -426,17 +481,27 @@
     }
 
     .industries {
-        font-size: 27px;
+        font-size: 26px;
+        text-align: center;
     }
 
     .technology {
-        font-size: 17px;
+        font-size: 16px;
+        line-height: 1.7;
+        text-align: center;
     }
 
     .images {
-        grid-template-columns: 1fr;
+        grid-template-columns: minmax(0, 1fr);
         gap: 30px;
+        margin: 25px auto;
         padding: 25px 15px;
+    }
+
+    .image1,
+    .image4,
+    .image5 {
+        width: 100%;
     }
 
     .house,
@@ -447,6 +512,7 @@
     .fintech {
         max-width: 230px;
         height: 160px;
+        margin-top: 15px;
     }
 
     .image-text,
@@ -454,7 +520,34 @@
     .image-text3,
     .image-text4,
     .image-text5 {
-        font-size: 20px;
-        margin: 12px 0 0;
+        font-size: 19px;
+        margin-top: 12px;
+    }
+}
+
+/* Small Mobile */
+@media (max-width: 360px) {
+    .digital {
+        font-size: 22px;
+    }
+
+    .main-head,
+    .main-head1 {
+        padding: 18px 14px;
+    }
+
+    .industries {
+        font-size: 23px;
+    }
+
+    .technology,
+    .para1,
+    .para2,
+    .para3 {
+        font-size: 15px;
+    }
+
+    .images {
+        padding: 20px 10px;
     }
 }
