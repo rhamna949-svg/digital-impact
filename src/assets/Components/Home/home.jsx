@@ -8,8 +8,8 @@ import Portfolio from "../../Components/Portfolio/portfolio"
 
 
 const Home = () => {
-    let name ="Ali"
-    console.log(name);
+    // let name ="Ali"
+    // console.log(name);
     
     
     return (
@@ -21,7 +21,7 @@ const Home = () => {
                     <br />
                     <p className="description1">Digital Marketing Agency</p>
                     <p className="welcome-2">Welcome to the Digital Impacts</p>
-                    <p className="paragraph">We partner with our clients {name} with a team of professionals, we are able to provide <br/>
+                     <p className="paragraph">We partner with our clients  with a team of professionals, we are able to provide <br/> 
                         the best on our side. We strive to be leaders in digital marketing services worldwide<br/>
                         by revolutionizing the industry and setting new standards of professionalism and success.</p>
                          <button className="message-button">Message Us Now</button>
