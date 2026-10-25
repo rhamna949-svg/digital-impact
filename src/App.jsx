@@ -32,10 +32,10 @@ import { CiTwitter } from "react-icons/ci";
 import { FaInstagram } from "react-icons/fa6";
 import { FaLinkedinIn } from "react-icons/fa";
 import Portfolio from "./assets/Components/Portfolio/portfolio"
-import revive from "./assets/Revive.jpg"
-import uni from "./assets/unifresh.jpg"
-import king from "./assets/KINGS.jpg"
-import voeux from "./assets/voeux.jpg"
+import revive from "./assets/Revive.jpg";
+import uni from "./assets/Unifresh.jpg";
+import king from "./assets/KINGS.jpg";
+import voeux from "./assets/Voeux.jpg";
 import { FaTableList } from "react-icons/fa6";
 import { FaReact } from "react-icons/fa";
 import { FaAws } from "react-icons/fa";
