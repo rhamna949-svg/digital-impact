@@ -1,11 +1,10 @@
 
 import React from "react";
 import "./portfolio.css";
-
-import revive from "../../../assets/Revive.jpg";
-import uni from "../../../assets/unifresh.jpg";
-import king from "../../../assets/KINGS.jpg";
-import voeux from "../../../assets/voeux.jpg";
+import revive from "../../Revive.jpg";
+import uni from "../../Unifresh.jpg";
+import king from "../../KINGS.jpg";
+import voeux from "../../Voeux.jpg";
 import { FaWordpress } from "react-icons/fa";
 import { FaTableList } from "react-icons/fa6";
 import { FaReact, FaAws } from "react-icons/fa";
